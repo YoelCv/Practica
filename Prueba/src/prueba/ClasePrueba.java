@@ -19,6 +19,9 @@ public class ClasePrueba {
             r= "fizz";  
         }
         
+	else (n%5==0 | r.contains("5")){
+	    r="buzz";
+	}
         return r;
     }
     
