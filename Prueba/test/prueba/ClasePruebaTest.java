@@ -23,5 +23,16 @@ public class ClasePruebaTest {
         String result = fb.ClasePrueba(3);
         assertEquals("fizz",result);
     }
-    
+    @Test
+    public void testSomeMethod1() {
+        ClasePrueba fb = new ClasePrueba();
+        String result = fb.ClasePrueba(5);
+        assertEquals("buzz",result);
+    }
+     @Test
+    public void testSomeMethod2() {
+        ClasePrueba fb = new ClasePrueba();
+        String result = fb.ClasePrueba(15);
+        assertEquals("fizz buzz",result);
+    }
 }
