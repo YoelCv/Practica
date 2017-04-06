@@ -15,7 +15,10 @@ public class ClasePrueba {
     public String ClasePrueba(int n){
         String r=String.valueOf(n);    
        
-        if (n%3==0 | r.contains("3")){
+        if (n%3==0 | r.contains("3") & n%5==0 r.contains("5")){
+		r= "fizz buzz";
+	}	
+	else if (n%3==0 | r.contains("3")){
             r= "fizz";  
         }
         
